@@ -1,5 +1,5 @@
 # AOT: Associating Objects with Transformers for Video Object Segmentation
-This project is used to update news related to AOT, a highly effective and efficient VOS (video object segmentation) framework.
+This project is used to update news related to AOT ([NeurIPS 2021](https://arxiv.org/abs/2106.02638)), a highly effective and efficient VOS (video object segmentation) framework.
 
 ![alt text](overview.png "An overview of AOT")
 
