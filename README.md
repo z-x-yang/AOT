@@ -1,7 +1,7 @@
 # AOT: Associating Objects with Transformers for Video Object Segmentation
 This project is used to update news related to AOT, a highly effective and efficient VOS (video object segmentation) framework.
 
-In AOT, we propose an identification mechanism, which enables us to model, propogate, and segment multiple objects as efficient as processing a single object.
+In AOT, we propose an identification mechanism, which enables us to model, propogate, and segment multiple objects as efficient as processing a single object. Based on the identification mechanism, the AOT framework is lightweight (with less than 10M parameters in default) yet powerful (achieving SOTA performance).
 
 ## News
 
