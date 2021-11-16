@@ -15,7 +15,7 @@ This project is used to update news related to AOT, a highly effective and effic
 
 2. PyTorch (third-party)
         
-    - [AOT-Benchmark](https://github.com/yoxu515/aot-benchmark) from ZJU.
+    - [AOT-Benchmark](https://github.com/yoxu515/aot-benchmark) from ZJU. Thanks for such an excellent implementation.
 
 
 
