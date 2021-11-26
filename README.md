@@ -7,7 +7,7 @@ In AOT, we propose an identification mechanism, which enables us to model, propo
 
 ## News
 
-- `2021/10`: The conference [paper](https://arxiv.org/abs/2106.02638) has been accepted by NIPS 2021 (score 8/8/8/7).
+- `2021/10`: The conference [paper](https://arxiv.org/abs/2106.02638) has been accepted by NeurIPS 2021 (score 8/8/7/8, [OpenReview](https://openreview.net/forum?id=hl3v8io3ZYt)).
 
 - `2021/05`: We ranked 1st in the Track 1 (Video Object Segmentation) of the 3rd Large-scale Video Object Segmentation Challenge.
 
