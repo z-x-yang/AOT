@@ -17,7 +17,7 @@ In AOT, we propose an identification mechanism, which enables us to model, propo
         
     We are preparing an official PaddlePaddle implementation.
 
-2. PyTorch (third-party)
+2. PyTorch
         
     - [AOT-Benchmark](https://github.com/yoxu515/aot-benchmark) from ZJU. Thanks for such an excellent implementation.
 
