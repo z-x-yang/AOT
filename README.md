@@ -11,14 +11,14 @@ This project is used to update news related to AOT ([NeurIPS 2021](https://arxiv
 ## Implementations
 The implementations of AOT can be found below:
 
-1. PaddlePaddle
-        
-    We are preparing an official PaddlePaddle implementation.
-
-2. PyTorch
+1. PyTorch
         
     - [AOT-Benchmark](https://github.com/yoxu515/aot-benchmark) from ZJU. Thanks for such an excellent implementation.
-
+    
+2. PaddlePaddle
+        
+    We are preparing an official PaddlePaddle implementation.
+    
 ## News
 
 - `2021/10`: The conference [paper](https://arxiv.org/abs/2106.02638) has been accepted by NeurIPS 2021 (score 8/8/7/8, [OpenReview](https://openreview.net/forum?id=hl3v8io3ZYt)).
