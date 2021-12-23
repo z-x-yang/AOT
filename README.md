@@ -8,7 +8,7 @@
 
 This project is used to update news related to AOT ([NeurIPS 2021](https://arxiv.org/abs/2106.02638)), a highly effective and efficient VOS (video object segmentation) framework.
 
-## Implementations
+## Implementations and Results
 The implementations of AOT can be found below:
 
 1. PyTorch
