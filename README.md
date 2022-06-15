@@ -21,7 +21,7 @@ The implementations of AOT can be found below:
     We are preparing an official PaddlePaddle implementation.
     
 ## News
-- `2022/06`: **WINNER** - AOT-based tracker ranked **1st** in two tracks (segmentation tracking and real-time segmentation tracking) of [VOT2022 Challenge](https://www.votchallenge.net/vot2022/). The technical report will be released by challenge organizors.
+- `2022/06`: **WINNER** - AOT-based tracker ranked **1st** in two tracks (segmentation tracking and real-time segmentation tracking) of [VOT2022 Challenge](https://www.votchallenge.net/vot2022/index.html). The technical report will be released by challenge organizors.
 
 - `2022/03`: An extension of AOT, [AOST](https://arxiv.org/abs/2203.11442) (under review), is available now. AOST is a more robust and flexible framework, supporting run-time speed-accuracy trade-offs.
 
