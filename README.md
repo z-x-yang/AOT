@@ -30,9 +30,13 @@ The implementations of AOT can be found below:
 - `2021/05`: **WINNER** - We ranked **1st** in the Track 1 (Video Object Segmentation) of the 3rd Large-scale Video Object Segmentation Challenge.
 
 ## About DeAOT
-![alt text](overview_aost.png "An overview of DeAOT")
+![alt text](overview_deaot.png "An overview of DeAOT")
 
 Although AOT successfully introduces the hierarchical propagation into VOS, the hierarchical propagation can gradually propagate information from past frames to the current frame and transfer the current frame feature from object-agnostic to object-specific, and the increase of object-specific information will inevitably lead to the loss of object-agnostic visual information in deep propagation layers. To solve such a problem and further facilitate the learning of visual embeddings, we propose a Decoupling Features in Hierarchical Propagation (DeAOT) approach to decouple the hierarchical propagation of object-agnostic and object-specific embeddings by handling them in two independent branches. Besides, to compensate for the additional computation from dual-branch propagation, we propose an efficient module for constructing hierarchical propagation, Gated Propagation Module.
+
+## About AOST
+![alt text](overview_aost.png "An overview of DeAOT")
+previous methods always have static network architectures, which are not flexible enough to adapt to different speed-accuracy requirements. To solve the above problems, we proposed an Associating Objects with Scalable Transformers (AOST) approach to match and segment multiple objects collaboratively with online network scalability. In AOST, a Scalable Long Short-Term Transformer (S-LSTT) is designed to construct hierarchical multi-object associations and enable online adaptation of accuracy-efficiency trade-offs. By further introducing scalable supervision and layer-wise ID-based attention, AOST is not only more flexible but more robust than previous methods.
 
 ## About AOT
 ![alt text](overview.png "An overview of AOT")
