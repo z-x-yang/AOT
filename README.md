@@ -21,13 +21,18 @@ The implementations of AOT can be found below:
     We are preparing an official PaddlePaddle implementation.
     
 ## News
-- `2022/10`: An improved version of AOT, [DeAOT](https://arxiv.org/abs/2210.09782) (Decoupling Features in Hierarchical Propagation for Video Object Segmentation), has been accepted by NeurIPS 2022. DeAOT achieves state-of-the-art results on VOS/VOT benchmarks, including YouTube-VOS 2018/2019, DAVIS 2016/2017, and VOT 2020.
+- `2022/10`: An improved version of AOT, [DeAOT](https://arxiv.org/abs/2210.09782) (Decoupling Features in Hierarchical Propagation for Video Object Segmentation), has been accepted by NeurIPS 2022. DeAOT achieves state-of-the-art accuracy and efficiency on VOS/VOT benchmarks, including YouTube-VOS 2018/2019, DAVIS 2016/2017, and VOT 2020.
 
 - `2022/03`: An extension of AOT, [AOST](https://arxiv.org/abs/2203.11442) (under review), is available now. AOST is a more robust and flexible framework, supporting run-time speed-accuracy trade-offs.
 
 - `2021/10`: The conference [paper](https://arxiv.org/abs/2106.02638) has been accepted by NeurIPS 2021 (score 8/8/7/8, [OpenReview](https://openreview.net/forum?id=hl3v8io3ZYt)).
 
 - `2021/05`: **WINNER** - We ranked **1st** in the Track 1 (Video Object Segmentation) of the 3rd Large-scale Video Object Segmentation Challenge.
+
+## About DeAOT
+![alt text](overview_aost.png "An overview of DeAOT")
+
+Although AOT successfully introduces the hierarchical propagation into VOS, the hierarchical propagation can gradually propagate information from past frames to the current frame and transfer the current frame feature from object-agnostic to object-specific, and the increase of object-specific information will inevitably lead to the loss of object-agnostic visual information in deep propagation layers. To solve such a problem and further facilitate the learning of visual embeddings, we propose a Decoupling Features in Hierarchical Propagation (DeAOT) approach to decouple the hierarchical propagation of object-agnostic and object-specific embeddings by handling them in two independent branches. Besides, to compensate for the additional computation from dual-branch propagation, we propose an efficient module for constructing hierarchical propagation, Gated Propagation Module.
 
 ## About AOT
 ![alt text](overview.png "An overview of AOT")
