@@ -7,7 +7,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/associating-objects-with-scalable/semi-supervised-video-object-segmentation-on-1)](https://paperswithcode.com/sota/semi-supervised-video-object-segmentation-on-1?p=associating-objects-with-scalable)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/associating-objects-with-scalable/visual-object-tracking-on-davis-2016)](https://paperswithcode.com/sota/visual-object-tracking-on-davis-2016?p=associating-objects-with-scalable)
 
-This project is used to update news related to AOT series frameworks ([NeurIPS 2021](https://arxiv.org/abs/2106.02638),[NeurIPS 2022](https://arxiv.org/abs/2210.09782)), a highly effective and efficient VOS (video object segmentation) framework.
+This project is used to update news related to AOT series frameworks ([NeurIPS 2021 (AOT)](https://arxiv.org/abs/2106.02638), [NeurIPS 2022 (DeAOT)](https://arxiv.org/abs/2210.09782)), a highly effective and efficient VOS (video object segmentation) framework.
 
 ## Implementations and Results
 The implementations of AOT can be found below:
