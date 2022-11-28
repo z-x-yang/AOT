@@ -7,7 +7,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/associating-objects-with-scalable/semi-supervised-video-object-segmentation-on-1)](https://paperswithcode.com/sota/semi-supervised-video-object-segmentation-on-1?p=associating-objects-with-scalable)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/associating-objects-with-scalable/visual-object-tracking-on-davis-2016)](https://paperswithcode.com/sota/visual-object-tracking-on-davis-2016?p=associating-objects-with-scalable)
 
-This project is used to update news related to AOT series frameworks ([NeurIPS 2021 (AOT)](https://arxiv.org/abs/2106.02638), [NeurIPS 2022 (DeAOT)](https://arxiv.org/abs/2210.09782)), a highly effective and efficient VOS (video object segmentation) framework.
+This project is used to update news related to AOT series frameworks ([NeurIPS 2021 (AOT)](https://arxiv.org/abs/2106.02638), [NeurIPS 2022 (DeAOT, Spotlight)](https://arxiv.org/abs/2210.09782)), a highly effective and efficient VOS (video object segmentation) framework.
 
 ## Implementations and Results
 The implementations of AOT can be found below:
@@ -23,7 +23,7 @@ The implementations of AOT can be found below:
 ## News
 - `2022/10`: **WINNER** - AOT-based Tracker ranked **1st** in **four tracks** of the **VOT 2022** challenge ([presentation of results](https://data.votchallenge.net/vot2022/vot2022_st_rt.pdf)). In detail, our MS-AOT is the winner of two segmentation tracks, VOT-STs2022 and VOT-RTs2022 (real-time). In addition, the bounding box results of MS-AOT (initialized by [AlphaRef](https://github.com/MasterBin-IIAU/AlphaRefine), and output is bounding box fitted to mask prediction) surpass the winners of two bounding box tracks, VOT-STb2022 and VOT-RTb2022 (real-time). The bounding box results were required by the organizers after the competition deadline but were highlighted in the [workshop presentation](https://data.votchallenge.net/vot2022/vot2022_st_rt.pdf) (ECCV 2022).
 
-- `2022/10`: An improved version of AOT, [DeAOT](https://arxiv.org/abs/2210.09782) (Decoupling Features in Hierarchical Propagation for Video Object Segmentation), has been accepted by NeurIPS 2022. DeAOT achieves state-of-the-art accuracy and efficiency on VOS/VOT benchmarks, including YouTube-VOS 2018/2019, DAVIS 2016/2017, and VOT 2020.
+- `2022/10`: An improved version of AOT, [DeAOT](https://arxiv.org/abs/2210.09782) (Decoupling Features in Hierarchical Propagation for Video Object Segmentation), has been accepted by NeurIPS 2022 (Spotlight). DeAOT achieves state-of-the-art accuracy and efficiency on VOS/VOT benchmarks, including YouTube-VOS 2018/2019, DAVIS 2016/2017, and VOT 2020.
 
 - `2022/03`: An extension of AOT, [AOST](https://arxiv.org/abs/2203.11442) (under review), is available now. AOST is a more robust and flexible framework, supporting run-time speed-accuracy trade-offs.
 
