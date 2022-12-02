@@ -14,7 +14,7 @@ The implementations of AOT can be found below:
 
 1. PyTorch
         
-    - [AOT-Benchmark](https://github.com/yoxu515/aot-benchmark) from ZJU, which **supports both AOT and DeAOT now**. Thanks for such an excellent implementation.
+    - [AOT-Benchmark](https://github.com/yoxu515/aot-benchmark) from ZJU, which **will supports both AOT and DeAOT in recent days**. Thanks for such an excellent implementation.
     
 2. PaddlePaddle
         
