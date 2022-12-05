@@ -7,10 +7,13 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/associating-objects-with-scalable/semi-supervised-video-object-segmentation-on-1)](https://paperswithcode.com/sota/semi-supervised-video-object-segmentation-on-1?p=associating-objects-with-scalable)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/associating-objects-with-scalable/visual-object-tracking-on-davis-2016)](https://paperswithcode.com/sota/visual-object-tracking-on-davis-2016?p=associating-objects-with-scalable)
 
-This project is used to update news related to AOT series frameworks ([NeurIPS 2021 (AOT)](https://arxiv.org/abs/2106.02638), [NeurIPS 2022 (DeAOT, Spotlight)](https://arxiv.org/abs/2210.09782)), a highly effective and efficient VOS (video object segmentation) framework.
+This project is used to update news related to AOT series frameworks:
+- **DeAOT**: Decoupling Features in Hierachical Propagation for Video Object Segmentation (NeurIPS 2022, Spotlight) [[OpenReview](https://openreview.net/forum?id=DgM7-7eMkq0)][[PDF](https://arxiv.org/pdf/2210.09782.pdf)]
+- **AOST**: Scalable Multi-object Identification for Video Object Segmentation (under review) [[PDF](https://arxiv.org/abs/2203.11442)]
+- **AOT**: Associating Objects with Transformers for Video Object Segmentation (NeurIPS 2021, Score 8/8/7/8) [[OpenReview](https://openreview.net/forum?id=hl3v8io3ZYt)][[PDF](https://arxiv.org/abs/2106.02638)]
 
 ## Implementations and Results
-The implementations of AOT can be found below:
+The implementations of AOT series frameworks can be found below:
 
 1. PyTorch
         
@@ -55,7 +58,7 @@ Please consider citing the related paper(s) in your publications if it helps you
   year={2022}
 }
 @article{yang2021aost,
-  title={Associating Objects with Scalable Transformers for Video Object Segmentation},
+  title={Scalable Multi-object Identification for Video Object Segmentation},
   author={Yang, Zongxin and Miao, Jiaxu and Wang, Xiaohan and Wei, Yunchao and Yang, Yi},
   journal={arXiv preprint arXiv:2203.11442},
   year={2022}
