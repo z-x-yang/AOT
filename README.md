@@ -24,6 +24,8 @@ The implementations of AOT series frameworks can be found below:
     We are preparing an official PaddlePaddle implementation.
     
 ## News
+- `2023/04`: We are pleased to announce the release of our latest project, [Segment and Track Anything (SAM-Track)](https://github.com/z-x-yang/Segment-and-Track-Anything). This innovative project merges two kinds of models, [SAM](https://github.com/facebookresearch/segment-anything) and our [DeAOT](https://github.com/yoxu515/aot-benchmark), to achieve seamless segmentation and efficient tracking of any objects in videos.
+
 - `2022/10`: **WINNER** - AOT-based Tracker ranked **1st** in **four tracks** of the **VOT 2022** challenge ([presentation of results](https://data.votchallenge.net/vot2022/vot2022_st_rt.pdf)). In detail, our MS-AOT is the winner of two segmentation tracks, VOT-STs2022 and VOT-RTs2022 (real-time). In addition, the bounding box results of MS-AOT (initialized by [AlphaRef](https://github.com/MasterBin-IIAU/AlphaRefine), and output is bounding box fitted to mask prediction) surpass the winners of two bounding box tracks, VOT-STb2022 and VOT-RTb2022 (real-time). The bounding box results were required by the organizers after the competition deadline but were highlighted in the [workshop presentation](https://data.votchallenge.net/vot2022/vot2022_st_rt.pdf) (ECCV 2022).
 
 - `2022/10`: An improved version of AOT, [DeAOT](https://arxiv.org/abs/2210.09782) (Decoupling Features in Hierarchical Propagation for Video Object Segmentation), has been accepted by NeurIPS 2022 (Spotlight). DeAOT achieves state-of-the-art accuracy and efficiency on VOS/VOT benchmarks, including YouTube-VOS 2018/2019, DAVIS 2016/2017, and VOT 2020.
