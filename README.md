@@ -25,7 +25,7 @@ The implementations of AOT series frameworks can be found below:
     
 ## News
 - `2024/03`: **AOST** - [AOST](https://arxiv.org/abs/2203.11442), the journal extension of AOT, has been accepted by TPAMI. AOST is the first scalable VOS framework supporting run-time speed-accuracy trade-offs, from real-time efficiency to SOTA performance.
-- 
+
 - `2023/07`: **WINNER** - DeAOT-based Tracker ranked **1st** in the [**VOTS 2023**](https://www.votchallenge.net/vots2023/) challenge ([leaderboard](https://eu.aihub.ml/competitions/201#results)). In detail, our [DMAOT](https://eu.aihub.ml/my/competition/submission/1139/detailed_results/) improves DeAOT by storing object-wise long-term memories instead of frame-wise long-term memories. This avoids the memory growth problem when processing long video sequences and produces better results when handling multiple objects.
   
 - `2023/06`: **WINNER** - DeAOT-based Tracker ranked **1st** in **two tracks** of [**EPIC-Kitchens**](https://epic-kitchens.github.io/2023) challenges ([leaderboard](http://epic-kitchens.github.io/2023)). In detail, our MS-DeAOT is a multi-scale version of DeAOT and is the winner of Semi-Supervised Video Object Segmentation (segmentation-based tracking) and TREK-150 Object Tracking (BBox-based tracking). Technical reports are coming soon.
