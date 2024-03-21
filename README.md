@@ -9,7 +9,7 @@
 
 This project is used to update news related to AOT series frameworks:
 - **DeAOT**: Decoupling Features in Hierarchical Propagation for Video Object Segmentation (NeurIPS 2022, Spotlight) [[OpenReview](https://openreview.net/forum?id=DgM7-7eMkq0)][[PDF](https://arxiv.org/pdf/2210.09782.pdf)]
-- **AOST**: Scalable Multi-object Identification for Video Object Segmentation (under review) [[PDF](https://arxiv.org/abs/2203.11442)]
+- **AOST**: Scalable Video Object Segmentation with Identification Mechanism (TPAMI 2024) [[PDF](https://arxiv.org/abs/2203.11442)]
 - **AOT**: Associating Objects with Transformers for Video Object Segmentation (NeurIPS 2021, Score 8/8/7/8) [[OpenReview](https://openreview.net/forum?id=hl3v8io3ZYt)][[PDF](https://arxiv.org/abs/2106.02638)]
 
 ## Implementations and Results
@@ -67,9 +67,9 @@ Please consider citing the related paper(s) in your publications if it helps you
 }
 @article{yang2021aost,
   title={Scalable Video Object Segmentation with Identification Mechanism},
-  author={Yang, Zongxin and Wang, Xiaohan and Miao, Jiaxu and Wei, Yunchao and Wang, Wenguan and Yang, Yi},
-  journal={arXiv preprint arXiv:2203.11442},
-  year={2023}
+  author={Yang, Zongxin and Miao, Jiaxu and Wei, Yunchao and Wang, Wenguan and Wang, Xiaohan and Yang, Yi},
+  journal={TPAMI},
+  year={2024}
 }
 @inproceedings{yang2021aot,
   title={Associating Objects with Transformers for Video Object Segmentation},
